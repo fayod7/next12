@@ -1,14 +1,13 @@
 
-import { Button } from '@mui/material';
-
 import { memo } from 'react';
+import Hero from 'src/components/hero/hero';
 import Layout from 'src/layout/layout';
 
 const IndexPage = () => {
   return (
     <>
    <Layout>
-      <Button>click</Button>
+      <Hero/>
    </Layout>
     </>
   );

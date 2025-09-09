@@ -6,7 +6,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 const Footer = () => {
   return (
-    <Box padding={'20px'} sx={{display:'flex', justifyContent:'space-between', alignItems: 'center', backgroundColor: 'primary.main', color:'white'}}>
+    <Box padding={'20px'} sx={{display:'flex', justifyContent:'space-between', alignItems: 'center', backgroundColor: '#141414', color:'white'}}>
       <Typography>     
         © {format(new Date(), 'yyyy')} Sammi. All rights reserved
       </Typography>
